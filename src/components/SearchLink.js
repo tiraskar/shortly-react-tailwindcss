@@ -4,10 +4,10 @@ const SearchLink = () => {
   return (
     <div className='bg-fixed bg-slate-100 mt-20 max-h-screen pb-10'>
       <div className='flex flex-col  justify-center items-center bg-veryDarkBlue w-[60%] mx-auto  rounded-lg '>
-        <div className='flex flex-col p-10 md:flex md:space-x-4 md:flex-row '>
+        <div className='flex flex-col p-10 lg:flex lg:space-x-4 lg:flex-row '>
           <input
             type='text'
-            className='bg-white rounded-md md:w-180 placeholder:text-start placeholder:text-yellow-500 placeholder:px-2'
+            className='bg-white rounded-md lg:w-180 placeholder:text-start placeholder:text-yellow-500 placeholder:px-2'
             placeholder='Shorten a link here'
           />
           <button className='bg-cyan my-2 p-2 rounded-md text-white md:my-0'>
@@ -25,7 +25,7 @@ const SearchLink = () => {
 
             <div
               key={index}
-              className='flex flex-col items-center md:flex-row md:space-x-5'
+              className='flex flex-col items-center lg:flex-row lg:space-x-5'
             >
               <p className='text-cyan'>{links.shortLink}</p>
               <button
